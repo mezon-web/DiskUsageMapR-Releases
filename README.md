@@ -4,7 +4,7 @@
 
 **[最新版をダウンロード](https://github.com/mezon-web/DiskUsageMapR-Releases/releases/latest)**
 
-![DiskUsageMapRの画面例。動画フォルダーを選ぶと、右に動画の内訳が表示されます。](images/overview.png)
+![DiskUsageMapRのサンバースト画面例。動画フォルダーを選ぶと、右に動画の内訳が表示されます。](images/sunburst.png)
 
 画面はすべて架空データです。
 
