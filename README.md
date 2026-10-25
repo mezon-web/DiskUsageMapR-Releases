@@ -11,8 +11,8 @@
 ## 使い始める
 
 1. Windows 11 x64で、**.NET 10 Desktop Runtime x64**を用意します。[Microsoftのダウンロードページ](https://dotnet.microsoft.com/ja-jp/download/dotnet/10.0) の「.NET Desktop Runtime」を選んでください。
-2. [Releases](https://github.com/mezon-web/DiskUsageMapR-Releases/releases) の `DiskUsageMapR-v0.3.0.zip` をダウンロードして展開します。
-3. 展開された `DiskUsageMapR-v0.3.0` フォルダー内の `DiskUsageMapR.exe` を起動し、フォルダーやドライブを選んで「スキャン」。エクスプローラーからフォルダーまたはドライブ1件をドロップしても開始できます。
+2. [Releases](https://github.com/mezon-web/DiskUsageMapR-Releases/releases) の `DiskUsageMapR-v0.3.1.zip` をダウンロードして展開します。
+3. 展開された `DiskUsageMapR-v0.3.1` フォルダー内の `DiskUsageMapR.exe` を起動し、フォルダーやドライブを選んで「スキャン」。エクスプローラーからフォルダーまたはドライブ1件をドロップしても開始できます。
 
 ランタイム非同梱の単一EXEです。ZIPにはEXEと日本語の「使い方.html」が入っています。使い方は、基本の4ステップから読める一列のHTMLです。[使い方HTMLを単体で保存](https://github.com/mezon-web/DiskUsageMapR-Releases/raw/refs/heads/main/manual.html)して、オフラインでも読めます。インストーラーや常駐サービスはありません。
 
@@ -38,6 +38,10 @@
 完全削除はごみ箱から戻せません。一括削除、スキャン起点やドライブ自体の削除には対応しません。フォルダーの配下にあるジャンクション等は参照先に入らず、リンク自体だけを対象にします。途中失敗で一部が削除済みの場合は再スキャンを案内します。
 
 スキャンはメタデータを調べ、読めない場所・未走査・リンクの除外を区別します。管理者でも全項目を読めるとは限りません。スキャン後の外部変更は、再スキャンで取得します。HDDや別PCでの速度改善率は未検証です。
+
+## v0.3.1の改善
+
+サンバーストでは、細い項目の名前と容量も見やすく表示するようにしました。サンバーストとアイシクルの図中の容量は小数なしにし、全体の容量を示す見出しを「ドライブ全体」「使用中」「計測中」に整理しました。右側の詳細には正確な数値を表示します。
 
 ## v0.3.0の改善
 
@@ -98,4 +102,4 @@ OneDrive実環境では読み取り専用のスキャンを確認しています
 - **`DiskUsageMapR-vX.Y.Z.zip.sha256.txt`** は、そのZIP専用のSHA-256です。照合方法は [DOWNLOAD.md](DOWNLOAD.md) を参照してください。
 - GitHubが自動生成する **「Source code (zip)」「Source code (tar.gz)」は、この公開資料リポジトリの内容**です。アプリ本体やアプリのソースコードではありません。
 
-[変更履歴](CHANGELOG.md) · [v0.3.0の公開内容](RELEASE.md)
+[変更履歴](CHANGELOG.md) · [v0.3.1の公開内容](RELEASE.md)
