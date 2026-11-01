@@ -2,7 +2,9 @@
 
 ヒートマップ・アイシクル・サンバーストでディスク使用量を確認できるWindowsアプリです。画面では「ディスク使用量マップ」と案内します。フォルダーの奥へ進み、容量の大きい場所を調べられます。日本語UI・オフライン動作。
 
-**[最新版をダウンロード](https://github.com/mezon-web/DiskUsageMapR-Releases/releases/latest)**
+**[最新版をダウンロード（v0.3.7・Windows x64・ZIP）](https://github.com/mezon-web/DiskUsageMapR-Releases/releases/download/v0.3.7/DiskUsageMapR-v0.3.7.zip)**
+
+[更新内容](https://github.com/mezon-web/DiskUsageMapR-Releases/releases/tag/v0.3.7) · [過去バージョン](https://github.com/mezon-web/DiskUsageMapR-Releases/releases)
 
 ![DiskUsageMapRのサンバースト画面例。大きな動画フォルダーを選び、右にその内訳を表示しています。](images/sunburst.png)
 
@@ -11,7 +13,7 @@
 ## 使い始める
 
 1. Windows 11 x64で、**.NET 10 Desktop Runtime x64**を用意します。[Microsoftのダウンロードページ](https://dotnet.microsoft.com/ja-jp/download/dotnet/10.0) の「.NET Desktop Runtime」を選んでください。
-2. [Releases](https://github.com/mezon-web/DiskUsageMapR-Releases/releases) の `DiskUsageMapR-v0.3.7.zip` をダウンロードして展開します。
+2. 上の「最新版をダウンロード」から `DiskUsageMapR-v0.3.7.zip` を取得して展開します。
 3. 展開された `DiskUsageMapR-v0.3.7` フォルダー内の `DiskUsageMapR.exe` を起動し、フォルダーやドライブを選んで「スキャン」。エクスプローラーからフォルダーまたはドライブ1件をドロップしても開始できます。
 
 ランタイム非同梱の単一EXEです。ZIPにはEXEと日本語の「使い方.html」が入っています。使い方は、サンバーストの画面例と基本の3手順から読めるHTMLです。[使い方HTMLを単体で保存](https://github.com/mezon-web/DiskUsageMapR-Releases/raw/refs/heads/main/manual.html)して、オフラインでも読めます。インストーラーや常駐サービスはありません。
@@ -121,3 +123,5 @@ OneDrive実環境では読み取り専用のスキャンを確認しています
 - GitHubが自動生成する **「Source code (zip)」「Source code (tar.gz)」は、この公開資料リポジトリの内容**です。アプリ本体やアプリのソースコードではありません。
 
 [変更履歴](CHANGELOG.md) · [v0.3.7の公開内容](RELEASE.md)
+
+<!-- 配布案内の更新手順: 実行用Assetは版番号付きのため、次回リリース公開時にREADMEの版番号・直リンク・展開先名を新しいAssetに合わせて更新する。更新内容・過去バージョンへのリンクを残し、匿名のHEADリクエスト等で直リンクの到達先を確認する。GitHub Actionsは使用しない。 -->
